@@ -17,5 +17,9 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    # npm run build
   displayName: 'npm install and build'
+- task: Npm@1
+  inputs:
+    command: 'publish'
+    publishEndpoint: 'npm'
