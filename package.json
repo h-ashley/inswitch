@@ -1,11 +1,16 @@
 {
   "name": "inswitch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Input Switcher",
-  "main": "index.js",
+  "main": "dist/inswitch.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Huw Ashley",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
 }
