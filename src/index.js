@@ -80,4 +80,5 @@ export default class Inswitch {
             Inswitch.focusOnNextInput(event);
         }
     }
-}
+};
+export var __useDefault = true;

@@ -6,6 +6,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'inswitch.js',
-        library: 'inswitch'
+        library: 'inswitch',
+        libraryTarget:'umd'
     },
 };
