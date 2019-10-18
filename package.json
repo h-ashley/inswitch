@@ -1,6 +1,6 @@
 {
   "name": "inswitch",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Input Switcher",
   "main": "dist/inswitch.js",
   "scripts": {
